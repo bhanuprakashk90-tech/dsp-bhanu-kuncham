@@ -4,3 +4,5 @@ scikit-learn==1.8.0
 matplotlib==3.10.8
 seaborn==0.13.2
 jupyter==1.0.0
+joblib==1.4.2
+flake8==7.1.1

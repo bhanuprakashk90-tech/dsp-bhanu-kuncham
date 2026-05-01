@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "house_prices"
+version = "0.1.0"
+description = "House prices prediction package"
+authors = [
+    {name = "Bhanu", email = "bhanu@example.com"}
+]
+dependencies = [
+    "pandas==3.0.1",
+    "numpy==2.4.2",
+    "scikit-learn==1.8.0",
+    "joblib==1.4.2"
+]
